@@ -20,7 +20,7 @@ class SentimentAnalyzer:
         if response.status_code == 200:
             soup = BeautifulSoup(response.content, 'html.parser')
             # Extract relevant data from the webpage using BeautifulSoup
-            # and add it to self.data list
+            # and add it to self.data list.
             # Example: self.data = soup.find_all('p')
         else:
             print("Error scraping data from the website.")
