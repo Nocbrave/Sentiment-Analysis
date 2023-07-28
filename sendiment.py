@@ -15,7 +15,7 @@ class SentimentAnalyzer:
             print("Error fetching data from the API.")
 
     def scrape_data_from_website(self, url):
-        # Scrape data from the specified website
+        # Scrape data from the specified website:
         response = requests.get(url)
         if response.status_code == 200:
             soup = BeautifulSoup(response.content, 'html.parser')
@@ -47,7 +47,7 @@ class SentimentAnalyzer:
 
 # Example usage:
 
-# Create an instance of SentimentAnalyzer
+# Create an instance of SentimentAnalyzer:
 analyzer = SentimentAnalyzer()
 
 # Fetch data from an API
