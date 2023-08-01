@@ -3,7 +3,7 @@ A python project that uses natural language processing techniques to analyze soc
 
 
 Please note that you have the required libraries ```requests```, ```bs4```, ```textblob``` installed before running the code. You can install them using the following commands:
-```
+```bash
 pip install requests
 pip install beautifulsoup4
 pip install textblob
