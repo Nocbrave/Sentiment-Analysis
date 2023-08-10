@@ -22,4 +22,4 @@ __2. Sentiment Analysis:__
  - The sentiment analysis results are printed for each item, and an overall sentiment score is calculated based on the average sentiment scores.
 
 
-To use this code: you need to replace the placeholder code in the ```fetch_data_from_api``` and ```scrape_data_from_website``` methods with the actual logic to retrieve and extract data from the API or website of your choice. Additionally, you may need to customize the sentiment analysis process based on your specific requirements and the structure of your data.
+__Usage:__ You need to replace the placeholder code in the ```fetch_data_from_api``` and ```scrape_data_from_website``` methods with the actual logic to retrieve and extract data from the API or website of your choice. Additionally, you may need to customize the sentiment analysis process based on your specific requirements and the structure of your data.
